@@ -1,6 +1,5 @@
-# Hospital Data Monitoring System
-
-This is a shell-based system for managing hospital device logs with archival and analysis features.
+# Hospital Data Monitoring & Archival System
+This project is a Linux shell scripting system that monitors simulated hospital device logs, allows interactive log archiving, and generates basic analysis reports using command-line tools.
 
 ## Quick Start
 1. **Setup:**
@@ -18,6 +17,7 @@ python3 simulators/water_meter.py start
 ```
 3. **Use scripts:**
 ```bash
+chmod +x archive_logs.sh analyze_logs.sh
 ./archive_logs.sh    # Archive logs
 ./analyze_logs.sh    # Analyze logs
 ```
@@ -35,7 +35,13 @@ hospital_data/
 └── reports/               # Analysis reports
 ```
 
-## Requirements
+## Requirements to run it
 * Bash shell
 * Python 3 (for simulators)
 * Linux tools: awk, grep, sort, uniq, date
+
+## Skills We Demonstrated
+- Shell scripting with menus
+- Log archiving & rotation
+- CLI data analysis (awk, grep, sort, uniq)
+- Report generation
