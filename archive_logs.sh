@@ -15,17 +15,17 @@ read -p "Enter choice (1-3): " choice
 # Determine file paths based on user selection
 case $choice in
     1)
-        log_file="hospital_data/active_logs/heart_rate_log.log"
+        log_file="hospital_data/active_logs/heart_rate.log"
         archive_dir="hospital_data/archived_logs/heart_data_archive"
         log_name="heart_rate"
         ;;
     2)
-        log_file="hospital_data/active_logs/temperature_log.log"
+        log_file="hospital_data/active_logs/temperature.log"
         archive_dir="hospital_data/archived_logs/temperature_data_archive"
         log_name="temperature"
         ;;
     3)
-        log_file="hospital_data/active_logs/water_usage_log.log"
+        log_file="hospital_data/active_logs/water_usage.log"
         archive_dir="hospital_data/archived_logs/water_usage_data_archive"
         log_name="water_usage"
         ;;
